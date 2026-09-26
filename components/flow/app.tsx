@@ -121,7 +121,7 @@ import { Pick, Field, TextField, Submit, Photo, EventForm } from "./forms";
 type Session = { token: string; room: string; actor: Actor };
 const STATIC_DEMO = process.env.NEXT_PUBLIC_STATIC_DEMO === "true";
 const SHARED_URL =
-  "https://precastflow-production.clear-tick-3522.chatgpt.site";
+  "https://precastflow-production.nthibby.chatgpt.site";
 const NAV = [
   ["dashboard", "Plant overview", LayoutDashboard],
   ["projects", "Projects", FolderKanban],

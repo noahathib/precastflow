@@ -2,7 +2,7 @@
 
 **From Shop Drawing to Jobsite.** A working precast production tracking demonstration with serialized QR passports, role-based activities, quality holds, batch traceability, yard inventory, shipments and receiving.
 
-- **Shared demonstration:** https://precastflow-production.clear-tick-3522.chatgpt.site
+- **Shared demonstration:** https://precastflow-production.nthibby.chatgpt.site
 - **GitHub Pages, browser-local edition:** https://noahathib.github.io/precastflow/
 - **Source:** https://github.com/noahathib/precastflow
 
