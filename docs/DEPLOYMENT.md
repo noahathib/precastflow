@@ -16,6 +16,8 @@ The repository includes `.github/workflows/pages.yml`. Set repository **Settings
 
 The Pages build is deliberately browser-local. It cannot host `app/api/flow`; connected demonstration actions link to the shared HTTPS site instead. It always uses hash routes, and `PAGES_BASE=/<repository-name>/` sets the asset prefix. The generated QR preserves `location.pathname`, so links retain `/precastflow/` under a project-page deployment.
 
+The Pages edition opens with a simple demo password gate. An unlock is remembered in `sessionStorage` for the current tab, and existing hash/QR destinations are preserved after entry. The gate is mounted only by `client.tsx`, so it does not change the shared edition. Its password digest and access flag are client-side and bypassable; this is a convenience barrier for the public fictional demo, not protection for confidential content. To change the demo password, replace `PASSWORD_DIGEST` in `components/flow/demo-gate.tsx` with its SHA-256 digest and redeploy.
+
 For a custom domain/root deployment use `PAGES_BASE=/ npm run build:pages` and update the shared-site link constant as appropriate.
 
 ## Security boundary
