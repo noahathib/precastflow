@@ -139,12 +139,16 @@ body {
 :root {
   --background: #f5f7f9;
   --foreground: #172b39;
+  /* Keep dropdown surfaces and highlighted text paired in either system theme. */
+  --popover: #ffffff;
+  --popover-foreground: #172b39;
   --primary: #087e8b;
   --primary-foreground: #fff;
   --secondary: #eaf1f4;
   --muted: #f0f3f6;
   --muted-foreground: #687b89;
   --accent: #e4f2f3;
+  --accent-foreground: #172b39;
   --border: #dfe7ec;
   --input: #d4dfe6;
   --ring: #138c97;
