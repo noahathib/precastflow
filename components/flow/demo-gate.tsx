@@ -6,7 +6,7 @@ import "./demo-gate.css";
 
 // A convenience gate for the public demo, not server-enforced access control.
 const PASSWORD_DIGEST =
-  "9d833556afe7555a812aca1640259a30852376a9f20b4075659d89e96a836032";
+  "b436493e0a55f04ffdbefc46ff230276ca0ed79d93a2fa01378af3af669a35b0";
 const SESSION_KEY = "precastflow-pages-demo-access-v1";
 
 function isUnlocked() {
